@@ -3,13 +3,8 @@
     "subscriptionId": "{subscription-id}",
     "resourceGroupName": "ConstosoRG",
     "cloudServiceName": "{cs-name}",
-    "api-version": "2022-04-04",
-    "parameters": {
-      "roleInstances": [
-        "ContosoFrontend_IN_0",
-        "ContosoBackend_IN_1"
-      ]
-    }
+    "roleInstanceName": "{roleInstance-name}",
+    "api-version": "2022-04-04"
   },
   "responses": {
     "200": {},
